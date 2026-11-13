@@ -4,7 +4,7 @@ A gothic fantasy murder mystery comic. One library, one growing story.
 
 Read: **https://rokaya-ya.github.io/blackthorn-castle/**
 
-The library contains all 150 pages of Chapters 1-4. The reader supports vertical scrolling, page mode, chapter switching, full-image access and device-local reading progress.
+The library contains all 150 pages of Chapters 1-4. The cinematic reader shows one complete page at a time, with keyboard and swipe navigation, zoom, chapter switching and device-local reading progress. Artwork always fits the screen without cropping or distortion.
 
 ## Publishing
 

@@ -4,7 +4,7 @@ This repository belongs only to the Blackthorn Castle comic. Do not operate on S
 
 The permanent reader lives at the permanent GitHub Pages URL: https://rokaya-ya.github.io/blackthorn-castle/ . Preserve this URL and repository visibility unless the user explicitly approves a change.
 
-Original chapter artwork, dialogue and order are authoritative. Never replace an existing chapter through the importer. Keep production scripts, private plot notes, reference portraits, credentials and browser profiles outside this public repository.
+Original chapter artwork, dialogue and order are authoritative. Never replace an existing chapter through the importer. Keep production scripts, private plot notes, reference portraits, credentials and browser profiles outside this public repository. The reader must show exactly one complete comic page at a time, with no vertical gallery or scroll-mode option. Preserve keyboard navigation, mobile swipes, fit-to-screen proportions and zoom.
 
 For “Create Chapter N and publish it”: complete illustration, lettering and continuity review first. Keep the PNG masters in the production project. Create a completion JSON with status PASS, storyPages, and masterHashes mapping every one-based page number to its approved master SHA256. Register only the next chapter with tools/publish_chapter.py; it checks the review hashes, exact page count, resolution and existing content before modifying the catalog. Use --pdf when the finished chapter PDF exists. The catalog automatically drives the homepage, order and both directions of chapter navigation.
 

@@ -28,7 +28,7 @@ def validate():
     assert (ROOT/'assets/comic.js').read_text(encoding='utf-8')==expected,'Stale comic.js; run build_library.py'
     for n in ['index.html','read.html']:
         assert (ROOT/n).read_bytes()==(ROOT/'templates'/n).read_bytes(),f'Stale {n}'
-    for n in ['assets/library.css','assets/library.js','assets/series-reader.js']: assert (ROOT/n).is_file()
+    for n in ['assets/library.css','assets/library.js','assets/book-library.css','assets/book-reader.css','assets/book-reader.js']: assert (ROOT/n).is_file()
     print(json.dumps({'status':'PASS','chapters':len(chapters),'pages':count,'allImagesVerified':True}))
     return {'chapters':len(chapters),'pages':count}
 if __name__=='__main__':
