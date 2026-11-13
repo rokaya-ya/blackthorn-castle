@@ -3,7 +3,7 @@
   "chapters": [
     {
       "n": 1,
-      "title": "",
+      "title": "The Invitation",
       "by": "",
       "pages": [
         {
@@ -235,11 +235,18 @@
       "status": "complete",
       "review": "passed",
       "expectedPages": 45,
-      "cover": "chapters/1/large/001.jpg"
+      "cover": "chapters/1/cover.jpg",
+      "coverThumb": "chapters/1/cover-thumb.jpg",
+      "coverPage": {
+        "src": "chapters/1/cover.jpg",
+        "w": 1024,
+        "h": 1536,
+        "sha256": "edd27a440593e58f166f699b58eed00785ecc7040e60f958f0558291935cc996"
+      }
     },
     {
       "n": 2,
-      "title": "",
+      "title": "Voices in the Walls",
       "by": "",
       "pages": [
         {
@@ -366,11 +373,18 @@
       "status": "complete",
       "review": "passed",
       "expectedPages": 24,
-      "cover": "chapters/2/large/001.jpg"
+      "cover": "chapters/2/cover.jpg",
+      "coverThumb": "chapters/2/cover-thumb.jpg",
+      "coverPage": {
+        "src": "chapters/2/cover.jpg",
+        "w": 1024,
+        "h": 1536,
+        "sha256": "cacaab3babca94a896dd0856249f2ef9bd9c0ac9442be9341379b8837e2df168"
+      }
     },
     {
       "n": 3,
-      "title": "",
+      "title": "The Unfinished Score",
       "by": "",
       "pages": [
         {
@@ -607,7 +621,14 @@
       "status": "complete",
       "review": "passed",
       "expectedPages": 46,
-      "cover": "chapters/3/large/001.jpg"
+      "cover": "chapters/3/cover.jpg",
+      "coverThumb": "chapters/3/cover-thumb.jpg",
+      "coverPage": {
+        "src": "chapters/3/cover.jpg",
+        "w": 1024,
+        "h": 1536,
+        "sha256": "5ef15ff3cb7cc135aa8ded0d93536aa414ebe74eeeeddca0b660ea3711855cbc"
+      }
     },
     {
       "n": 4,
@@ -616,7 +637,7 @@
       "status": "complete",
       "review": "passed",
       "expectedPages": 35,
-      "cover": "chapters/4/large/001.jpg",
+      "cover": "chapters/4/cover.jpg",
       "pages": [
         {
           "w": 1536,
@@ -794,7 +815,14 @@
           "sha256": "83c0fecbdba240ed3e078ef25cfbfc3cacae860cd6cf6677309a80de7f79d382"
         }
       ],
-      "pdf": "chapters/4/chapter-4.pdf"
+      "pdf": "chapters/4/chapter-4.pdf",
+      "coverThumb": "chapters/4/cover-thumb.jpg",
+      "coverPage": {
+        "src": "chapters/4/cover.jpg",
+        "w": 1024,
+        "h": 1536,
+        "sha256": "3ec559b7fac9a61e21d83d51b462b488875bf1cde39e26440816dbadabf72318"
+      }
     }
   ]
 }

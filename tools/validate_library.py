@@ -23,6 +23,15 @@ def validate():
             assert hashlib.sha256(f.read_bytes()).hexdigest()==p['sha256'],f'Unreviewed art change: {f}'
             count+=1
         assert (ROOT/c['cover']).is_file(), 'Missing chapter cover'
+        if c.get('coverPage'):
+            p=c['coverPage'];f=ROOT/p['src']
+            assert f.is_relative_to(ROOT) and f.is_file(), 'Missing reader cover'
+            with Image.open(f) as im:
+                assert im.size==(p['w'],p['h']) and im.width*3==im.height*2, 'Cover must be 2:3 portrait'
+                im.verify()
+            assert hashlib.sha256(f.read_bytes()).hexdigest()==p['sha256'], 'Unreviewed cover change'
+            with Image.open(ROOT/c['coverThumb']) as im:
+                assert im.size==(512,768), 'Wrong cover thumbnail geometry'
         if c.get('pdf'): assert (ROOT/c['pdf']).is_file(), 'Missing PDF'
     expected='window.COMIC = '+json.dumps(data,ensure_ascii=False,separators=(',',':'))+';\n'
     assert (ROOT/'assets/comic.js').read_text(encoding='utf-8')==expected,'Stale comic.js; run build_library.py'

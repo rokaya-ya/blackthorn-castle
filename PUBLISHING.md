@@ -33,3 +33,7 @@ Only finished comic artwork, reader assets, chapter metadata and publishing code
 ## Existing links
 
 All legacy `read.html#3/1` links continue to work. Chapter-one shortcuts such as `read.html#12` also work. No redirect or new per-chapter website is required.
+
+## Illustrated covers
+
+Each chapter opens on its portrait cover at `read.html#N/cover`. Numeric story-page bookmarks are preserved: `#N/1` still opens story page 1. Covers do not change story page counts or existing PDFs. For new chapters, place the approved 2:3 portrait master (minimum 1024 x 1536) at `cover.png` beside the `pages` folder, and add its SHA256 as `coverHash` in the passing review JSON. The importer exports the full cover and library thumbnail and binds the cover to validation.

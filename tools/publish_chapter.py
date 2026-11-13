@@ -11,6 +11,9 @@ from validate_library import validate
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('pages',type=Path);ap.add_argument('--chapter',type=int,required=True);ap.add_argument('--title',required=True);ap.add_argument('--review-json',type=Path,required=True);ap.add_argument('--expected-pages',type=int,required=True);ap.add_argument('--pdf',type=Path);ap.add_argument('--publish',action='store_true');args=ap.parse_args()
     data=json.loads((ROOT/'chapters/chapters.json').read_text(encoding='utf-8'));n=args.chapter
+    cover=args.pages.parent/'cover.png'
+    assert cover.is_file(), 'Save the reviewed 2:3 portrait cover as cover.png beside the pages folder'
+    assert json.loads(args.review_json.read_text(encoding='utf-8')).get('coverHash')==hashlib.sha256(cover.read_bytes()).hexdigest(), 'Review must bind the approved coverHash'
     assert n==max(c['n'] for c in data['chapters'])+1,'Only the next new chapter may be registered'
     dest=ROOT/f'chapters/{n}';assert not dest.exists(),'Refusing to replace existing content'
     review=json.loads(args.review_json.read_text(encoding='utf-8'));assert review.get('status')=='PASS' and review.get('storyPages')==args.expected_pages,'A complete passing production review is required'
@@ -24,6 +27,12 @@ def main():
     record={'n':n,'title':args.title,'by':'','status':'complete','review':'passed','expectedPages':len(files),'cover':f'chapters/{n}/large/001.jpg','pages':[]}
     with tempfile.TemporaryDirectory(prefix='.chapter-stage-',dir=ROOT) as stage:
         stage=Path(stage)
+        with Image.open(cover) as source:
+            im=source.convert('RGB');w,h=im.size
+            assert w>=1024 and w*3==h*2, 'Cover must be at least 1024 x 1536, in 2:3 portrait format'
+            im.save(stage/'cover.jpg',quality=94,subsampling=0,optimize=True,progressive=True)
+            im.resize((512,768),Image.Resampling.LANCZOS).save(stage/'cover-thumb.jpg',quality=92,subsampling=0,optimize=True,progressive=True)
+            record.update(cover=f'chapters/{n}/cover.jpg',coverThumb=f'chapters/{n}/cover-thumb.jpg',coverPage={'src':f'chapters/{n}/cover.jpg','w':w,'h':h,'sha256':hashlib.sha256((stage/'cover.jpg').read_bytes()).hexdigest()})
         for i,f in files:
             with Image.open(f) as source:
                 im=source.convert('RGB');w,h=im.size
