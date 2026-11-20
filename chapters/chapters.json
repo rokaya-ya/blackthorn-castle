@@ -823,6 +823,185 @@
         "h": 1536,
         "sha256": "3ec559b7fac9a61e21d83d51b462b488875bf1cde39e26440816dbadabf72318"
       }
+    },
+    {
+      "n": 5,
+      "title": "Everybody Out",
+      "by": "",
+      "status": "complete",
+      "review": "passed",
+      "expectedPages": 32,
+      "cover": "chapters/5/cover.jpg",
+      "pages": [
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "3a55cbdc196d365b9df0fb0f2f0f64fc62faa70405250cadfd482d54a65775e2"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "a27fcb3d5230da1eaf3b37d3901d51443c08856ae05d732736e2a26e5cf30a4d"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "22dc120b2b4d482ab98789fd8535acd108e79d1b2c1d94de8a2b176a70d5af83"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "4ef06884ff7b5d1a3a54f0e4d50824f61240eee31c6206d59c3c73579ba7818b"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "fff798d7db93932cb25ece29e40d62e37de86067037a941eb0131b3f7336ba56"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "f54d56e3d79405917890ac170c2d79dd754296ed5b4a19ab15409320ce17ee20"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "5dbffb17042a622b27d4df734e0b8143bd00dd64093eaaeb21098449242ecdd3"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "26bc3ed4e1d2799c05da1a5d4354088ef758ed36e15c46f6dfdf375f0ce10f35"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "6515fe44966b589b8567644d82b6ea8ba2d4751da518f455495d5a83b656e177"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "ac763ad133fcb837308616b9d1af4ba1250d817e74c1915abb3f32c6ab281977"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "f1c369548035c3b81c5a4f53125128bf46e530cd5a9c4c0cb9c636a3ab5a31da"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "f84932fc91c73d85401b356ef70e7ce0bc3c7da21b4c892bd3fe96a6fe85af5a"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "624ffd714f371051feb6df83644decf85a4fab752de37d511d7499d36d0678bd"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "021721892f6e5cfbd39e03622812b5846564604d4226b40d7f3076082783eab5"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "b6e546f572bb55f5fca5c9c763c6854da9040c936443cef0743af209fcb974ce"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "ec2df97060d85b320ea9043ce32e88deea508975a3e97c586a5ad7ac64f53def"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "63b7df0b2900442f5d363417db89b08912451c74cb61eaca2840fd0e1891b817"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "28f0a2cce38afe18b8f3d4b3b46d0c6f4a81cae61226ae37bb9a8787ed2bb2cb"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "d02ee6da18a8b02644ea6c41642013f1ee921d3479695bd4e510e427655e07ea"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "ae9028a8bfbc8f45ff2b05868a5e399af0ff4b8847e156a096746c8ac52ffa50"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "b767e8a0535c29c65b170d04efe6a7ec13625cababc4d14997803c176c04e1b6"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "abe4e044039f6d2e832da09d4f2b2fc4562e1da8bfa59f19147785a38acfe7ce"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "8c1d0f027d5c92c31959915be4cf14f8bd11ffba41881876e7e19a5720796ac3"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "8e4188b96e7a3db5ec4a2d686109176ee1b96674f214a7080a1fc0cea1e3c2f3"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "1d78aec30738515730e917166fd958cbd3e699426d2a1425d094640d0609a064"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "5cce01e00a55d6e4fd8209913ef1300671351dfb453cefcb7b4674ec10eb5e39"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "8a311b0cfc4e99b426391465e296850529cbad311ab8428809d2e88c2f501a90"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "131b103378c5010d05b00a1b96bbaf9b6f90743d17d9652e17f9732655c3c8b7"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "509ff3d9571c8215277b231639277ba7eacd2ed27f0faf0a34925cee2cd8ca0a"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "efc34c16635ae06e129e54d80ef7bc11da73e22b11ed2be70d920daeae87666a"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "aba9640eaf52dc0535e357434fe1ff2b0a0cccd66e2a3a254aa074310eb59759"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "b60b1d5f8dff87a9cf4c93c3e115de7513426cfb364a893fa8885017b70529c3"
+        }
+      ],
+      "coverThumb": "chapters/5/cover-thumb.jpg",
+      "coverPage": {
+        "src": "chapters/5/cover.jpg",
+        "w": 1024,
+        "h": 1536,
+        "sha256": "cdcf7ea6498dd78c75599e12f7a7161feaf9021152550bbdb73293ecfdf0f0ea"
+      },
+      "pdf": "chapters/5/chapter-5.pdf"
     }
   ]
 }
