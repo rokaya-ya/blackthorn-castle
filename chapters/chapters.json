@@ -1002,6 +1002,185 @@
         "sha256": "cdcf7ea6498dd78c75599e12f7a7161feaf9021152550bbdb73293ecfdf0f0ea"
       },
       "pdf": "chapters/5/chapter-5.pdf"
+    },
+    {
+      "n": 6,
+      "title": "Don't Let Go",
+      "by": "",
+      "status": "complete",
+      "review": "passed",
+      "expectedPages": 32,
+      "cover": "chapters/6/cover.jpg",
+      "pages": [
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "60fd631709a3fc64c25bc9d4b1fc2fe88683a785bf746fcd2e3291ab05dda233"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "f486f7fd0786e430faefd20d23524da6f94c7a86808aa5f72e17d5923f4d13a5"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "0e5a2aafd4f0ce224819b5e5e5c9c0aa0854a3cd28b8770c6e262101250f1078"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "4a9e96ef65bbee425e2f57b5f08d970a74bea9cae4be4eb751f1dd9dde5bb195"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "3ce09596fe74acf5486eaee4621b654338d2ded31b7bf59918be898e878988a6"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "ae5084490c28d224d069b64e47e6bac67d4f3bc5c8cd37306433a8b7b3597a82"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "9247d3c36474cf9478a0dd05cbac11674aa7fc501e1b6d8503fb38901a6440c5"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "721a2195dea40c8aef1f0d5e36a9dfb2b91df362905f2ae8d3f4f3501ce5c29e"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "3d9c30ed04ee9d9ab5d4420547cc9437947c5bf6571b82c02569f82ccf600c84"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "06ccef17d3fe631885cb6afbfc0aca36ffb4bc1aedc73fca09d4bf35f25a9bec"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "dd7e8aedbb08faa07afe4625c1b19e5d530b297a704d8dde6688ed852bda5e38"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "c2d4728ce1224ada433f034dd2e92e10db708660eda6b8631ed7e95f1076e957"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "5678524ee33ce368e7971601e2e663b49269af14592ad6f8455270ac5eff9336"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "edc19d9f774b049ea839aafb978ebc00abb0578cb31f5952966bbd484868111b"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "aa953a9599d655862b7e291e42f1cbdd05177f8c856c6d5fa5c62556a26ad55c"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "a7c99eedb6070508826fe36fe87c1be6d5a54e59e2116e6a0eae027e2cb31c8c"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "a6cbba8aac84c7b5eb55a6a1458ab5a16d66ad4c217081d6e464cd9e33c2d3e5"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "cb9e131aabcde60494e6f956fce2a93c0cdd479fdfb4686f9322b15a6a66a9ff"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "e413e1dc578c198d19f61b5025b7bf2004772ddb210cce97872b43531fdf4480"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "86121bfcaab4dbcdc76d275d57f5bf9f9fa13548420a71c30507a4437975059d"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "4b566edb8b95be7c9194aacff93905f1edf8d6603f6ff2592ead3a6a3a69d237"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "d5bd50dead8518f1862e5a28df0ccb2ed9991147220a7df4dbe770ea972bf8bc"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "d6a5f0bf281fe2e394eabc22e694ce4654039aec5a2cb2e7b51ea830ae57ebcd"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "6b58f7836cfa5d83157fe74b12695278b5f404d11e420f294e35de4764ae90e0"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "440b53ec00387cc179c025301dca6c4dd0be7fff84c3848a0b7d4d0905f6e805"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "110fa4187aa38160c2adb8cacb5f95fe41464c28c904f5d3982de40c9c7ff43a"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "628f3d51b2a065f5769da21232fe289cf67764061f2a02e70265133eb024ea98"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "ffd3fb8a4bd0c9df0154669c0256ce89ea6fb6684c3882532b6b9777ec06e9b9"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "d71b8da88da46a7c1ed81983cbff04f174a51a50ac5f4d8d3948c8982a91b55e"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "f5a95199cbc91ccce975197ce4be6ebfe4c426b9e96a0a71d654c68eb9a74162"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "3b8b87d41c0f12d93e7e476ecb09fddb9f022682ab1684671b9038792ef0b128"
+        },
+        {
+          "w": 1536,
+          "h": 1024,
+          "sha256": "46b247aaae5ca5c9fc45bb741c399b1ffbd600bd49fc7976f4711e92d43497d3"
+        }
+      ],
+      "coverThumb": "chapters/6/cover-thumb.jpg",
+      "coverPage": {
+        "src": "chapters/6/cover.jpg",
+        "w": 1024,
+        "h": 1536,
+        "sha256": "d35049f2c086b7f3cac09937ae04ddda95d067a13c9bd854be758727ef8b8176"
+      },
+      "pdf": "chapters/6/chapter-6.pdf"
     }
   ]
 }
